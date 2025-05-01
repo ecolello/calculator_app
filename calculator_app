@@ -1,22 +1,59 @@
 def addition(a, b):
+    try:
 	return a + b
+    except TypeError:
+	print("Invalid input. Please enter numbers only.")
+    except Exeption as e:
+	print(f"An unexpected error occurred: {e}")
+	return None
 
 def subtraction(a, b):
-	return a - b
+    try:
+       return a - b
+    except TypeError:
+	print("Invalid input. Please enter numbers only.")
+    except Exeption as e:
+	print(f"An unexpected error occurred: {e}")
+	return None
 
 def multiplication(a, b):
+    try:
 	return a * b
+    except TypeError:
+	print("Invalid input. Please enter numbers only.")
+    except Exeption as e:
+	print(f"An unexpected error occurred: {e}")
+	return None
 
 def division(a, b):
+    try: 
 	return a/b
+    except ZeroDivisionError:
+	print("Error: Division by zero is not allowed.")
+	return None
+    except TypeError:
+	print("Invalid input. Please enter numbers only.")
+    except Exeption as e:
+	print(f"An unexpected error occurred: {e}")
+	return None
 
 def square_root(a):
+    try:
 	return a**(1/2)
-
+    except TypeError:
+	print("Invalid input. Please enter numbers only.")
+    except Exeption as e:
+	print(f"An unexpected error occurred: {e}")
+	return None
 
 def exponentiation(a, b):
+    try:
 	return a ** b
-
+    except TypeError:
+	print("Invalid input. Please enter numbers only.")
+    except Exeption as e:
+	print(f"An unexpected error occurred: {e}")
+	return None
 while True:
     print(" \n Calculator Options:")
     print("1. Add")
