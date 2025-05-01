@@ -1,0 +1,62 @@
+def addition(a, b):
+	return a + b
+
+def subtraction(a, b):
+	return a - b
+
+def multiplication(a, b):
+	return a * b
+
+def division(a, b):
+	return a/b
+
+def square_root(a):
+	return a**(1/2)
+
+
+def exponentiation(a, b):
+	return a ** b
+
+while True:
+    print(" \n Calculator Options:")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+    print("5. Square Root")
+    print("6. Exponentiation")
+    print("7. Exit")
+
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        a = int(input("Enter your first number: "))
+        b = int(input("Enter your second number: "))
+        print(addition(a, b))
+
+    if choice == 2:
+        a = int(input("Enter your first number: "))
+        b = int(input("Enter your second number: "))
+        print(subtraction(a, b))
+
+    if choice == 3:
+        a = int(input("Enter your first number: "))
+        b = int(input("Enter your second number: "))
+        print(multiplication(a, b))
+
+    if choice == 4:
+        a = int(input("Enter your first number: "))
+        b = int(input("Enter your second number: "))
+        print(division(a, b))
+
+    if choice == 5:
+        a = int(input("Enter your number: "))
+        print(square_root(a))
+
+    if choice == 6:
+        a = int(input("Enter your first number: "))
+        b = int(input("Enter your second number: "))
+        print(exponentiation(a, b))
+
+    if choice == 7:
+    	break
