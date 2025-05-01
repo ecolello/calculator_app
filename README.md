@@ -10,3 +10,9 @@ This is a Python-based Calculator App. It allows users to perform basic mathemat
 - Division
 - Square Root
 - Exponents 
+
+## Collaborators:
+
+- Emma Colello
+- Mahlet Abrha
+- Lilian Beaudoin
