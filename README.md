@@ -3,7 +3,7 @@
 ## Description 
 This is a Python-based Calculator App. It allows users to perform basic mathematical operations. The program also includes basic error handling for invalid inputs. 
 
-## Mathmatical Operations:
+## Mathmatical Operations
 - Addition
 - Subtraction
 - Multiplication
@@ -18,7 +18,7 @@ This is a Python-based Calculator App. It allows users to perform basic mathemat
 - Code displays the answer for the opperation chosen
 - User can either end session or continue sloving mathmatical problems
 
-## Collaborators:
+## Collaborators
 
 - Emma Colello
 - Mahlet Abrha
