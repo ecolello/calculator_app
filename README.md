@@ -9,7 +9,14 @@ This is a Python-based Calculator App. It allows users to perform basic mathemat
 - Multiplication
 - Division
 - Square Root
-- Exponents 
+- Exponents
+
+## How It Runs
+- Displays a list of seven options (each opperation and an exit)
+- User chooses which opperation they would like to use
+- User inputs both integers (if anything other than integers are submitted the code will return an error message)
+- Code displays the answer for the opperation chosen
+- User can either end session or continue sloving mathmatical problems
 
 ## Collaborators:
 
